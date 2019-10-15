@@ -5,6 +5,8 @@ This PHP template lets you get started quickly with a simple one-page playground
 ```php runnable
 <?php
 echo "Hello World!";
+$tableau = [ "jambon" => 4.95 , "pain" => 5.3 ];
+var_dump($tableau["jambon"]);
 ?>
 ```
 
